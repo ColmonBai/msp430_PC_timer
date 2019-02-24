@@ -13,6 +13,7 @@
 - 修改src/web/py/Main.py第4行的'COM5'为你连接的串口号
 - 修改src/web/js/time/js第7和18行的python路径
 - 用ie浏览器打开src/web/index.html即可获取单片机当前时间，以及为单片机设定时间
+# Contributors
 - 老杨 设计前端界面
 - 老王 调试TimeA定时器 键盘消抖
 - [月落](github.com/yueluo-x) LCD1602驱动 开发文档
