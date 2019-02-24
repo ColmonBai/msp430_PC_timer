@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>setTime</title>
+	<meta charset="utf-8">
+	 <script type="text/javascript" src="js/time.js"></script>
+	 <link rel="stylesheet" type="text/css" href="css/time.css">
+</head>
+<body onload="showLeftTime()">
+	<img class="bg" src="img/bg.jpg">
+	<div class="head">Electronic Clock Setting</div>
+	<div class="h_m_s">
+		<label>自定义时间 — 时：</label>
+		<input type="text" id="in_hour" name="time" value="0">
+		<label>分：</label>
+		<input type="text" id="in_minute" name="time" value="0">
+	</div>
+	<div class="line">—·—·—·—·—·—·—·—·—·—·—</div>
+	<div class="button1">
+		<button  onclick="byHand()" >显示输入时间</button><br>
+		<button  onclick="zero()" >置零</button><br>
+	</div>
+
+	<div id="show"><label >显示时间的位置</label></div>
+	<div class="button2">
+		<button  onclick="auto()" >显示当前时间</button>
+		<div class="by"><strong>—— By Group 8</strong></div>
+	</div>
+</body>
+</html>
